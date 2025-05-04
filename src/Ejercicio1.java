@@ -11,11 +11,9 @@ public class Ejercicio1 {
                 impares++;
             }
         }
-
         System.out.println("En el array hay:");
         System.out.println("- " + pares + " números pares");
         System.out.println("- " + impares + " números impares");
-
         System.out.print("Números pares: ");
         for (int num : array) {
             if (num % 2 == 0) {
@@ -23,7 +21,6 @@ public class Ejercicio1 {
             }
         }
         System.out.println();
-
         System.out.print("Números impares: ");
         for (int num : array) {
             if (num % 2 != 0) {
